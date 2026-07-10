@@ -1,0 +1,71 @@
+# Screenshots
+
+This folder contains screenshots captured during different stages of the RTL-to-GDSII implementation flow.
+
+The images include floorplanning, power planning, placement, clock tree synthesis, routing, physical verification, and the final GDSII layout.
+
+The screenshots provide a visual representation of the complete ASIC Physical Design flow implemented using Cadence Innovus.
+# Screenshots
+
+The following screenshots highlight the important stages of the RTL-to-GDSII implementation flow.
+
+## 1. Floorplan + Power Planning
+Core area definition along with VDD and VSS power rings and stripes.
+
+![Floorplan](screenshots/01_floorplan_global.png)
+
+---
+
+## 2. Placement – Global View
+Standard cells placed across the core with optimized utilization and zero routing overflow.
+
+![Placement Global](screenshots/02_placement_global.png)
+
+---
+
+## 3. Placement – Zoomed View
+Zoomed view showing standard cell instances and placement quality.
+
+![Placement Zoomed](screenshots/03_placement_zoomed.png)
+
+---
+
+## 4. Clock Tree Synthesis (CTS)
+Balanced clock tree generated using CCOpt for minimum skew and optimized latency.
+
+![Clock Tree](screenshots/04_cts_clock_tree.png)
+
+---
+
+## 5. Post-CTS Timing Results
+Timing summary after setup and hold optimization.
+
+![Post CTS Timing](screenshots/05_postcts_timing.png)
+
+---
+
+## 6. Routed Layout – Global View
+Final routed design showing metal interconnections across the entire layout.
+
+![Routing Global](screenshots/06_routing_global.png)
+
+---
+
+## 7. Routed Layout – Zoomed View
+Detailed routing view showing metal layers and via connections.
+
+![Routing Zoomed](screenshots/07_routing_zoomed.png)
+
+---
+
+## 8. Physical Verification Summary
+Verification reports confirming zero DRC violations, zero connectivity violations, and zero PG shorts.
+
+![Verification](screenshots/08_verification_summary.png)
+
+---
+
+## 9. Final GDSII Layout
+Final layout exported as a GDSII stream file after successful timing closure and signoff verification.
+
+![Final GDSII](screenshots/09_final_gdsii.png)
