@@ -1,6 +1,6 @@
-This folder contains screenshots captured during different stages of the RTL-to-GDSII implementation of a Synchronous Memory Block using Cadence Innovus on a 90nm technology node.
+This folder contains screenshots captured during different stages of the **RTL-to-GDSII implementation of a Synchronous Memory Block using Cadence Innovus on a 90nm technology node**.
 
-The screenshots provide a visual representation of the complete backend Physical Design flow, including floorplanning, power planning, placement, clock tree synthesis, routing, physical verification, and final GDSII generation.
+The screenshots provide a visual representation of the **complete backend Physical Design flow**, including **floorplanning, power planning, placement, clock tree synthesis, routing, physical verification, and final GDSII generation**.
 # Screenshots
 
 The following screenshots highlight the key stages of the RTL-to-GDSII implementation flow.
